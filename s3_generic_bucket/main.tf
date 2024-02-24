@@ -160,7 +160,7 @@ data "aws_iam_policy_document" "s3_generic_bucket" {
         variable = "aws:SourceAccount"
 
         values = [
-          var.aws_account_number
+          var.aws_account_id
         ]
       }
     }
@@ -183,7 +183,7 @@ data "aws_iam_policy_document" "s3_generic_bucket" {
         variable = "aws:SourceAccount"
 
         values = [
-          var.aws_account_number
+          var.aws_account_id
         ]
       }
     }
@@ -206,7 +206,7 @@ data "aws_iam_policy_document" "s3_generic_bucket" {
         variable = "aws:SourceAccount"
 
         values = [
-          var.aws_account_number
+          var.aws_account_id
         ]
       }
     }
